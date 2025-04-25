@@ -1,0 +1,48 @@
+.posi {
+    background-color: #0d5188;
+    color: white;
+  }
+
+  .h {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px;
+      color: ;
+      background-color: #c7e7f3;
+  }
+
+  .cinza{
+      background-color: gray;
+      text-align: center;
+  }
+
+  .tabela{
+      width: 600px;
+  }
+
+  .posicao {
+      background-color: #66c4e3;
+      font-family: Arial, Helvetica, sans-serif;
+      color: black;
+      font-weight: bolder;
+      text-align: center;
+
+  }
+
+  .cid{
+      color: #0d5188;
+
+
+  }
+
+
+  table{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 12px;
+  }
+
+  .fundo {
+    background-color:aqua;
+    color: red 20px;
+    text-align: center
+
+  }
