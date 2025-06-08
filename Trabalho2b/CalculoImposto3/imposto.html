@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Imposto</title>
+    <link rel="stylesheet" href="calculo.css">
+</head>
+<body class="caixa">
+    <div class="caixa2">
+        <h2 class="titulo">Calculadora de Imposto</h2>
+
+        <label for="ano">Ano do Automóvel:</label>
+        <input class="numero" type="number" id="ano">
+
+        <label for="valor">Valor de Tabela (R$):</label>
+        <input class="numero" type="number" id="valor"> 
+
+        <button onclick="calcularImposto()" class="botao">Calcular Imposto</button>
+
+        <div id="resultado" class="resultado0" style="display: none;"></div>
+    </div>
+
+    <script src="calculo.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamentos Professores</title>
+    <link rel="stylesheet" href="Pagamentos.css">
+</head>
+<body class="caixa">
+
+ <div class="caixa2">
+     <h1 class="titulo">Sistema de Pagamento Para Professores</h1>
+    <label for="nivel">Nível do Professor (a)</label>
+    <input class="numero" type="number" id="nivel" placeholder="De 1 a 3">
+
+    <label for="aulas">Aulas/horas</label>
+    <input class="numero" type="number" id="aulas">
+
+    <button class="botao" onclick="pagar()"> Calcular</button>
+    
+    <div class="resultado0" id="resultado"></div>
+ </div>
+
+ <script src="Pagamentos.js"></script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d42c4a;
+    color: #333;
+}
+
+.logoUni  {
+    width: 70px;
+    height: 70px;
+}
+/* Barra Superior */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #d42c4a;
+    padding: 10px 20px;
+    color: white;
+}
+
+.marca {
+    text-align: justify;
+    font-size: 1.8em;
+    font-weight: bold;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* Calculadoras */
+.container-calculadoras {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.bloco-calculadora {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.bloco-calculadora img {
+    width: 70px;
+    height: 70px;
+}
+
+.bloco-calculadora h2 {
+    margin: 10px 0;
+    color: #222;
+}
+
+.bloco-calculadora ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.bloco-calculadora ul li {
+    margin-bottom: 5px;
+}
+
+.bloco-calculadora a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #d42c4a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.bloco-calculadora a:hover {
+    text-decoration: underline;
+}
+
+/* Banner */
+.faixa {
+    position: relative;
+    width: 100%;
+ height: min(40vh, 400px); 
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.faixa video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    z-index: -1;
+    pointer-events: none; /* evita que o vídeo intercepte cliques */
+}
+
+.faixa h1 {
+    color: white;
+    font-size: 2em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    z-index: 1;
+}

@@ -1,0 +1,75 @@
+    .titulo{
+        text-align: center;
+        color: #d42c4a;
+    }
+.caixa{
+    text-align: c;
+    background-color:  #d42c4a;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; }
+
+.caixa2 {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    width: 620px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    color: #444;
+    font-weight: 600;
+}
+
+.numero {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.botao{
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color:  #d42c4a;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.resultado {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    color: #ffffff00;
+}
+.resultado0 {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    color: #000;
+}
+
+

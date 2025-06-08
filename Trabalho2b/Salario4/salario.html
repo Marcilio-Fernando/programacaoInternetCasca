@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aumento de salario</title>
+    <link rel="stylesheet" href="salario.css">
+</head>
+<body class="caixa">
+    <div class="caixa2">
+        <h2 class="titulo">Calculo Salario</h2>
+        <label for="salario">Salario</label>
+        <input class="numero" type="number" id="Salario">
+
+        <label for="cargo">Cargo</label>
+         <select class="numero" id="cargo">
+      <option value="101">Gerente (10%)</option>
+      <option value="102">Engenheiro (20%)</option>
+      <option value="103">Técnico (30%)</option>
+      <option value="outro">Outro (40%)</option>
+    </select>
+        <button onclick="calcularSalario()" class="botao">Calcular Aumento</button>
+
+        <script src="salario.js"></script>
+
+                <div id="resultado" class="resultad0" style="display: none;"></div>
+   </div> 
+</body>
+</html>

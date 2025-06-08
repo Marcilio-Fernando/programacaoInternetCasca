@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio Lanchonete</title>
+    <link rel="stylesheet" href="salgado.css">
+</head>
+<body class="caixa">
+
+    <div class="caixa2">
+            <img class="batata666" src="../CardápioD.png">
+        <label for="codigo">Código do Produto:</label>
+        <input class="numero" type="number" id="codigo" min="1" max="6"><br>
+
+        <label for="quantidade">Quantidade:</label>
+        <input class="numero" type="number" id="quantidade" min="1"><br>
+
+        <button class="botao" onclick="calcular()">Calcular Total</button>
+        <div class="resultado0" id="resultado"></div>
+
+    </div>
+ 
+
+    <script src="salgado.js"></script>
+</body>
+</html>
