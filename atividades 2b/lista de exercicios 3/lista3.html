@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Lista de batata123</title>
+  <link rel="stylesheet" href="lista3.css" />
+</head>
+<body>
+
+
+  <div class="caixa">
+    <h3>1. Área do Terreno</h3>
+    <input type="number" id="larg" placeholder="Largura (m)">
+    <input type="number" id="comp" placeholder="Comprimento (m)">
+    <button onclick="calcTerreno()">Calcular</button>
+    <p id="saida1"></p>
+  </div>
+
+
+  <div class="caixa">
+    <h3>2. Ferraduras para Cavalos</h3>
+    <input type="number" id="cavalos" placeholder="Qtd de cavalos">
+    <button onclick="calcFerraduras()">Calcular</button>
+    <p id="saida2"></p>
+  </div>
+
+
+  <div class="caixa">
+    <h3>3. Padaria HotPão</h3>
+    <input type="number" id="pao" placeholder="Qtd de pães">
+    <input type="number" id="broa" placeholder="Qtd de broas">
+    <button onclick="calcPadaria()">Calcular</button>
+    <p id="saida3"></p>
+  </div>
+
+
+  <div class="caixa">
+    <h3>4. Dias de vida</h3>
+    <input type="text" id="nomepessoa" placeholder="Nome">
+    <input type="number" id="idadepessoa" placeholder="Idade">
+    <button onclick="calcularDias()">Ver dias</button>
+    <p id="res4"></p>
+  </div>
+
+  <div class="caixa">
+    <h3>5. Litros de gasolina</h3>
+    <input type="number" id="valGas" placeholder="Valor R$">
+    <input type="number" id="precoLitro" placeholder="Preço do litro R$">
+    <button onclick="calcLitros()">Calcular</button>
+    <p id="res5"></p>
+  </div>
+
+
+  <div class="caixa">
+    <h3>6. Restaurante a quilo</h3>
+    <input type="number" id="peso" placeholder="Peso (kg)">
+    <input type="number" id="tara" placeholder="Peso prato (kg)">
+    <button onclick="calcQuilo()">Calcular</button>
+    <p id="res6"></p>
+  </div>
+
+
+  <div class="caixa">
+    <h3>7. Dias entre datas</h3>
+    <input type="number" id="anoInicio" placeholder="Ano início">
+    <input type="number" id="anoFinal" placeholder="Ano final">
+    <button onclick="calcDiasPassados()">Calcular</button>
+    <p id="res7"></p>
+  </div>
+
+  <div class="caixa">
+    <h3>8. Venda de camisetas</h3>
+    <input type="number" id="peq" placeholder="Pequenas">
+    <input type="number" id="med" placeholder="Médias">
+    <input type="number" id="gra" placeholder="Grandes">
+    <button onclick="calcCamisetas()">Calcular</button>
+    <p id="res8"></p>
+  </div>
+
+  <div class="caixa">
+    <h3>9. Distância entre pontos</h3>
+    <input type="number" id="x1" placeholder="x1">
+    <input type="number" id="y1" placeholder="y1">
+    <input type="number" id="x2" placeholder="x2">
+    <input type="number" id="y2" placeholder="y2">
+    <button onclick="calcDistancia()">Calcular</button>
+    <p id="res9"></p>
+  </div>
+
+
+  <div class="caixa">
+    <h3>10. Dias sem acidentes</h3>
+    <input type="number" id="diasTrabalho" placeholder="Qtd. dias">
+    <button onclick="converterDias()">Converter</button>
+    <p id="res10"></p>
+  </div>
+
+
+  <div class="caixa">
+    <h3>11. Aumento de salário</h3>
+    <input type="number" id="salAtual" placeholder="Salário R$">
+    <button onclick="calcularSalario()">Calcular</button>
+    <p id="res11"></p>
+  </div>
+
+
+  <div class="caixa">
+    <h3>12. Separar número</h3>
+    <input type="number" id="num3dig" placeholder="Até 3 dígitos">
+    <button onclick="separarNum()">Ver partes</button>
+    <p id="res12"></p>
+  </div>
+
+  <div class="caixa">
+    <h3>13. Área da pizza</h3>
+    <input type="number" id="raioPizza" placeholder="Raio da pizza">
+    <button onclick="calcPizza()">Calcular área</button>
+    <p id="res13"></p>
+  </div>
+
+
+  <div class="caixa">
+    <h2>Divisão da Conta do Bar</h2>
+    <label for="valorConta">Valor Total da Conta (R$):</label>
+    <input type="number" id="valorConta" step="0.01">
+    <button onclick="calcularDivisao()">Calcular</button>
+
+    <p id="resultado"></p>
+  </div>
+
+  <script src="lista3.js"></script>
+</body>
+</html>

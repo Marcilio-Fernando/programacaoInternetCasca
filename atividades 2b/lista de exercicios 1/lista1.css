@@ -1,0 +1,15 @@
+body {
+  font-family: Arial;
+  background: #aa0101;
+  padding: 20px;
+ place-items: center;
+}
+
+.caixinha {
+position: relative;
+  background: white;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid gray;
+  width: 600px;
+}

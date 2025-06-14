@@ -1,0 +1,19 @@
+body {
+  font-family: Arial;
+  background: #be0707;
+  padding: 20px;
+  place-items: center;
+}
+
+.caixa {
+  background: white;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid gray;
+  width: 600px;
+}
+
+input, button {
+  margin: 5px 0;
+  padding: 5px;
+}
